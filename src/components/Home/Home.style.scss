@@ -1,0 +1,35 @@
+section {
+  // Following centers project cards on the page. Don't remove.
+  display: grid;
+  justify-items: center;
+  margin:0;
+  padding: 0;
+
+  .home-section {
+   margin: 65px 3.0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #tsparticles {
+      position: fixed !important;
+       background-repeat: no-repeat !important;
+       background-size: cover !important;
+       width: 100%;
+       height: 100%;
+       z-index: -1;
+     }
+     .home-header {
+      padding-top: 80px !important;
+      img{
+        border-radius: 50%;
+      }
+    }
+    .avatar {
+      justify-content: left !important;
+      padding-top: 9em !important;
+      padding-left:0;
+    }
+    }
+}

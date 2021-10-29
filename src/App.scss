@@ -1,0 +1,54 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+a:active{
+  background-color: #4285F4;
+}
+.icons {
+    color: whitesmoke;
+}
+.cta{
+  background-color: #4285F4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.2rem;
+
+}
+
+.h2 {
+  font-size: 22px;
+}
+
+.blue {
+  color: #4285F4;
+}
+
+
+// https://css-tricks.com/simplified-fluid-typography/
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(1rem + 6 * ((100vw - 320px) / 680));
+  }
+  h2 {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 1.2rem;
+  }
+  h2 {
+    font-size: 18px;
+  }
+} 

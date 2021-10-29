@@ -1,0 +1,45 @@
+section {
+  // Following centers project cards on the page. Don't remove.
+  display: grid;
+  justify-items: center;
+  margin:0;
+  padding: 0;
+}
+.resume-section {
+    position: relative !important;
+    padding-top: 110px !important;
+    padding-bottom: 30px !important;
+    background-image: var(--section-background-color) !important;
+    color: black !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+  }
+  
+  .resume {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    display: grid;
+    justify-items: center;
+    padding:0;
+    margin: 0;
+  }
+
+  
+  // .resume-right {
+  //   padding-left: 80px !important;
+  // }
+  
+  // @media (max-width: 767px) {
+  //   .resume-left {
+  //     padding-right: 15px !important;
+  //     padding-left: 15px !important;
+  //   }
+  
+  //   .resume-right {
+  //     padding-right: 15px !important;
+  //     padding-left: 15px !important;
+  //   }
+  // }
