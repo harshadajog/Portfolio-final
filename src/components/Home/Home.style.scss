@@ -9,7 +9,7 @@ section {
     position: relative !important;
     padding-top: 100px !important;
     padding-bottom: 30px !important;
-    margin: 0 5.0rem;
+    margin: 0 !important;
 
     #tsparticles {
       position: fixed !important;
@@ -32,7 +32,8 @@ section {
       }
       .home-detail {
         display: grid;
-        justify-items: center;
+        justify-items: left;
+        margin: 0.5rem;
       .img-fluid {
         width: 150px;
         height: 150px;
