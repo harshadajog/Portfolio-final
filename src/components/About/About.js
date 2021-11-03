@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col} from "react-bootstrap";
+
 import {
     AiFillGithub,
     AiOutlineTwitter
@@ -42,10 +42,10 @@ function About() {
                             </a>
                         </div>
                         <div>
-                            <a href="https://github.com/harshadajog"
+                            <a href="https://twitter.com/harshadajog"
                                 target="_blank" rel="noreferrer"
                                 className="icon-colour  home-social-icons"
-                                ><AiFillGithub />
+                                >< AiOutlineTwitter />
                             </a>
                         </div>
                     </div>

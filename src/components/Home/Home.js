@@ -1,5 +1,4 @@
 import React from "react";
-import { Container, Row, Col} from "react-bootstrap";
 import Particle from "../../resources/Particle";
 import home from '../../assets/avatars/website-setup/home1.png'
 import profilePic from '../../assets/profile_pic.jpg';
