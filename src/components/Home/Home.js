@@ -19,8 +19,9 @@ function Home() {
               </div>
               <div className="home-detail">
               <img src={home} alt="home pic" className="img-fluid" />
-                <span>I am a Software Engineer. I love to build user experiences</span>
+                <span>I love building user experiences</span>
                 <p>that are <span style={{'color': "#4285F4"}}>beautiful</span> and <span style={{'color': "#4285F4"}}>serve a purpose</span>.</p>
+                <p>I am also learning Full-Stack Development by volunteering at Code For San Jose.</p>
               </div>
         </div>
     </section>          
