@@ -7,11 +7,11 @@ section {
 }
 .testimonials-section{
     position: relative !important;
-    padding-top: 150px !important;
+    padding-top: 120px !important;
     padding-bottom: 30px !important;
     margin: 0 5.0rem;
     .cards {
-        margin: 65px 3.0rem;
+     //   margin: 65px 3.0rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -20,8 +20,8 @@ section {
         .card{
             box-sizing: border-box;
             position: relative;
-            width: 90%;
-            padding: 35px 30px 30px;
+            width: 100%;
+           padding: 10px;
             margin-bottom: 35px;
             border: 5px solid #4285F4;
             border-radius: 8px;
@@ -37,17 +37,6 @@ section {
                 border-top-left-radius: 10px;
                 border-top-right-radius: 10px;
             }
-            // .quote {
-            //     margin: 0;
-            //     background: #eee;
-            //     padding: 1em;
-            //     padding: 0;
-            //     border-radius: 1em;
-            //   }
-            //   .quote figcaption,
-            //   .quote blockquote {
-            //     margin: 1em;
-            //   }
             .heading {
                 h3 {
                     font-weight: 600;
@@ -58,15 +47,14 @@ section {
                     font-size: 14px;
                 }
             }
+            blockquote {
+                text-align: justify;
+            }
             .content {           
                 span,p{
                     font-size: 16px;
                 }  
             }  
-            .card-image {
-                margin-top: 40px;
-                text-align: right;
-            }
     }
 }
 }
@@ -81,14 +69,13 @@ section {
 @media (max-width: 400px){
     .cards {
         margin: 25px 0.5rem;
-
     }
 }
 
 @media (max-width: 960px){
     .testimonials-section {
         padding: 20px;
-        margin: 75px auto;
+        margin: 75px 0.5rem;
         box-sizing:border-box;
     }
 
@@ -98,13 +85,5 @@ section {
 
     .header p {
         font-size: 16px;
-    }
-
-    .cards {
-        display: flex;
-        flex-direction: column;
-        // grid-template-columns: 1fr;
-        // column-gap: 35px;
-    //    align-items: center;
     }
 }

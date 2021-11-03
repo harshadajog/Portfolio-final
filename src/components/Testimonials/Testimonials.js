@@ -5,7 +5,6 @@ function Testimonials() {
       <section>
        <div className="testimonials-section">
     <header className="header">
-     <p>Testimonials</p>
     </header>
     <section className="cards">
         <div className="card">

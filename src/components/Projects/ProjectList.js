@@ -6,13 +6,16 @@ import './ProjectList.style.scss';
 function ProjectList() {
 
   const projectList = projects.map((project, i) => {
-      return <ProjectCard data={project} key={i}></ProjectCard>
-    })
+      return (
+        <div key={i}>
+          <br />
+        <ProjectCard data={project} key={i}></ProjectCard>
+        </div>
+  )})
 
     return (
       <div className="project-section">
-        <p> Solo projects I am working on.</p>
-        <ul>
+           <ul>
           {projectList}
         </ul>
       </div>

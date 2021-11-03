@@ -12,8 +12,7 @@ function ProjectCard(props) {
     <div className="project-card-view">
         
         <div className="preview-content">
-        <h2 className="preview-title">{name}</h2>
-            <p className="preview-description">{description}</p>
+          <h2 className="preview-title">{name}</h2>
             <ul className="preview-details">{detailList}</ul>
             <div className="project-tools">
               {toolList}

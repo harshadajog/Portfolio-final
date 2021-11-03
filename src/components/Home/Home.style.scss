@@ -6,11 +6,10 @@ section {
   padding: 0;
 
   .home-section {
-   margin: 65px 3.0rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    position: relative !important;
+    padding-top: 100px !important;
+    padding-bottom: 30px !important;
+    margin: 0 5.0rem;
 
     #tsparticles {
       position: fixed !important;
@@ -21,15 +20,23 @@ section {
        z-index: -1;
      }
      .home-header {
-      padding-top: 80px !important;
-      img{
-        border-radius: 50%;
+        padding-top: 50px !important;
+        .heading-name {
+          font-size: calc(1rem + 6 * ((100vw - 320px) / 680));
+        }
+        .img-fluid{
+          border-radius: 50%;
+          width: 100px;
+          height: 100px;
+        }
+      }
+      .home-detail {
+        display: grid;
+        justify-items: center;
+      .img-fluid {
+        width: 150px;
+        height: 150px;
       }
     }
-    .avatar {
-      justify-content: left !important;
-      padding-top: 9em !important;
-      padding-left:0;
-    }
-    }
+  }
 }
